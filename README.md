@@ -1,70 +1,69 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Application Météo
 
-## Available Scripts
+Cette application météo permet de rechercher et d'afficher les conditions météorologiques actuelles pour une ville donnée. Elle utilise l'API OpenWeatherMap pour récupérer les données météorologiques.
 
-In the project directory, you can run:
+## Fonctionnalités
 
-### `npm start`
+- Recherche de la météo par ville
+- Affichage des informations telles que la température, les conditions météorologiques, l'humidité et la vitesse du vent
+- Interface utilisateur intuitive avec un design responsive
+- Intégration d'un footer avec des liens vers GitHub et un portfolio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prérequis
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (version 12 ou supérieure)
+- Une clé API OpenWeatherMap
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clonez ce dépôt sur votre machine locale :
+   ```bash
+   git clone https://github.com/votre-nom-utilisateur/weather-app.git
+   cd weather-app
+   ```
 
-### `npm run build`
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Créez un fichier `.env` à la racine du projet et ajoutez votre clé API OpenWeatherMap :
+   ```env
+   REACT_APP_OPENWEATHERMAP_API_KEY=VOTRE_CLE_API
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Utilisation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Lancez l'application :
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+2. Ouvrez votre navigateur et allez à l'adresse suivante : `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Entrez le nom d'une ville dans le champ de recherche et cliquez sur "Rechercher" pour voir les informations météorologiques.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Structure du Projet
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `src/App.js` : Composant principal de l'application.
+- `src/components/WeatherCard.js` : Composant pour afficher les informations météorologiques.
+- `src/services/weatherService.js` : Service pour les appels API à OpenWeatherMap.
+- `src/styles/App.css` : Fichier CSS pour le style de l'application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Démo
 
-## Learn More
+Vous pouvez voir une démonstration de l'application en suivant [ce lien](https://votre-lien-de-demo.com).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Auteur
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Souleimane Zeggaï**
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-### Analyzing the Bundle Size
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [GitHub](https://github.com/souleimane-z)
+- [Portfolio](https://www.souleimane-z.com)
