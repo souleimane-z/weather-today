@@ -53,7 +53,7 @@ Cette application météo permet de rechercher et d'afficher les conditions mét
 
 ## Démo
 
-Vous pouvez voir une démonstration de l'application en suivant [ce lien](https://votre-lien-de-demo.com).
+Vous pouvez voir une démonstration de l'application en suivant [ce lien](https://pas-encore-deploy.com).
 
 ## Auteur
 
