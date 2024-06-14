@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const PROXY_URL = 'https://weather-proxy-gold.vercel.app'; // Remplacez par l'URL de votre API Proxy
+const PROXY_URL = 'https://weather-proxy-gold.vercel.app/weather'; // Remplacez par l'URL de votre API Proxy
 
 export const fetchWeather = async (city) => {
   try {
