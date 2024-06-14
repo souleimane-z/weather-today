@@ -53,7 +53,7 @@ Cette application météo permet de rechercher et d'afficher les conditions mét
 
 ## Démo
 
-Vous pouvez voir une démonstration de l'application en suivant [ce lien]([https://pas-encore-deploy.com](https://souleimane-z.github.io/weather-today/).
+Vous pouvez voir une démonstration de l'application en suivant [ce lien](https://souleimane-z.github.io/weather-today/).
 
 ## Auteur
 
